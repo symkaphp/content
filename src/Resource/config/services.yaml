@@ -17,7 +17,7 @@ services:
 
   # controllers are imported separately to make sure services can be injected
   # as action arguments even if you don't extend any base controller class
-  Symka\Core\Controller\:
+  Symka\Content\Controller\:
     resource: '../../../src/Controller'
     tags: ['controller.service_arguments']
 
